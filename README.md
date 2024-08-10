@@ -40,12 +40,21 @@ All endpoints are relative to the base URL: `/ticket`
     ]
   }
 
+### 3. Get Movie By ID
 
-
-
-  ### 3. Get movie by Id
-
-- **Endpoint:** `GET /ticket/movies`
-- **Description:** Retrieves a list of all movies.
+- **Endpoint:** `GET /ticket/movie/{id}`
+- **Description:** Get movie by id
 - **Response:**
-  - `200 OK` - Returns a list of movies in JSON format.
+  - `200 OK` - Returns movie in JSON format.
+
+### 4. Update Movie By ID
+
+- **Endpoint:** `PUT /ticket/update/{id}`
+- **Description:** Update movie by id
+
+### 5. Delete Movie By ID
+
+- **Endpoint:** `DELETE /ticket/movie/{id}`
+- **Description:** Get movie by id
+  
+
