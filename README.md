@@ -56,5 +56,24 @@ All endpoints are relative to the base URL: `/ticket`
 
 - **Endpoint:** `DELETE /ticket/movie/{id}`
 - **Description:** Get movie by id
-  
+
+
+## Maven Configuration
+
+- **Spring Boot Version:** 3.0.0
+- **Java Version:** 17
+
+## Build Tools
+
+**Maven:** This project uses Apache Maven for build and dependency management.  
+
+## Dependencies
+- **Spring Boot Starter Web:** Provides the core functionalities for creating web applications.
+- **Spring Boot Starter Test:** Includes libraries for testing Spring Boot applications.
+- **Spring Boot Starter Validation:** Provides support for Java Bean Validation
+
+## How to Run
+- **Clone the repository.**
+- **Navigate to the project root directory.**
+- **Run the following command to start the application:** mvn spring-boot:run
 
